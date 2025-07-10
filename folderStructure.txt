@@ -1,0 +1,58 @@
+/yourturn
+├── android/
+├── ios/
+├── node_modules/
+├── src/
+│   ├── assets/               # Imágenes, íconos, fuentes, etc.
+│   │   ├── images/
+│   │   └── fonts/
+│
+│   ├── components/           # Componentes reutilizables (Buttons, Cards, etc.)
+│   │   ├── Button/
+│   │   │   ├── Button.tsx
+│   │   │   └── styles.ts
+│   │   └── ...
+│
+│   ├── screens/              # Pantallas principales de navegación
+│   │   ├── HomeScreen/
+│   │   ├── ScheduleScreen/
+│   │   ├── AppointmentDetailsScreen/
+│   │   ├── LoginScreen/
+│   │   └── ...
+│
+│   ├── navigation/           # Navegación stack/tab
+│   │   ├── AppNavigator.tsx
+│   │   └── NavigationTypes.ts
+│
+│   ├── context/              # Contextos globales (auth, user, etc.)
+│   │   └── AuthContext.tsx
+│
+│   ├── hooks/                # Custom hooks
+│   │   └── useAppointments.ts
+│
+│   ├── services/             # Lógica de API
+│   │   ├── api.ts            # Config base de Axios o fetch
+│   │   └── appointments.ts   # Endpoints relacionados a turnos
+│
+│   ├── models/               # Tipado de datos
+│   │   └── Appointment.ts
+│
+│   ├── utils/                # Funciones reutilizables (formato de fechas, validaciones, etc.)
+│   │   └── formatDate.ts
+│
+│   ├── constants/            # Constantes globales
+│   │   └── colors.ts
+│   │   └── strings.ts
+│
+│   ├── App.tsx               # Punto de entrada
+│   └── index.ts              # Registro de la app
+│
+├── .eslintrc.js
+├── .prettierrc.js
+├── app.json
+├── babel.config.js
+├── jest.config.js
+├── metro.config.js
+├── package.json
+├── tsconfig.json
+└── README.md
