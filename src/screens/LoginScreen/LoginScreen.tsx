@@ -57,7 +57,7 @@ function LoginScreen() {
 
                     {/* Title of the Login Screen */}
                     <Text style={styles.title} accessibilityRole="header">
-                        Welcome Back!
+                        Your Turn
                     </Text>
 
                     {/* Email Address Input Field */}
@@ -165,7 +165,6 @@ const styles = StyleSheet.create({
         width: '100%', // Full width for the button
         paddingVertical: 8, // Vertical padding for the button
         marginTop: 10, // Space above the button
-        borderRadius: 8, // Rounded corners for the button
     },
     buttonLabel: {
         fontSize: 18, // Larger font size for button text
